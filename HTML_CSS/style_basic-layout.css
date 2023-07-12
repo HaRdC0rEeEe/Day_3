@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+}
+
+.outer-container {
+    border: 3px dotted black;
+    height: 85vh;
+    width: 75vw;
+    margin: 40px auto;
+
+
+}
+
+.inner-container {
+    border: 2px solid blue;
+    height: 50vh;
+    width: 40vw;
+    margin: 20% auto;
+}
+
+.box {
+
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+html {
+    height: 200%;
+}
+
+.absolute {
+    position: absolute;
+    background-color: green;
+}

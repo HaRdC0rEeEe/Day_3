@@ -1,0 +1,142 @@
+:root {
+    /* do :root se píšou globálně dostupné proměnné */
+    --hlavni_barva: hsla(0, 59%, 41%, 0.4);
+    --barva_1: hsla(0, 59%, 41%, 0.6);
+    --barva_2: hsl(0, 59%, 41%);
+    --barva-light: rgb(255, 255, 255);
+    --hlavni_bg_barva: hsl(120, 50%, 80%);
+    --bg_1: hsl(180, 50%, 80%);
+    --bg_2: hsl(60, 50%, 80%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+}
+
+
+#typography {
+    background-color: var(--hlavni_bg_barva);
+}
+
+
+#lists {
+    background-color: var(--bg_2);
+}
+
+
+#forms {
+    background-color: var(--bg_2);
+}
+
+
+#table {
+    background-image: url("https://source.unsplash.com/b0EzyHcXmsI");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+#table table,
+td,
+th,
+thead {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.5rem;
+}
+
+
+/* DAY 3 */
+
+ul,
+ol,
+dl,
+p {
+    margin: 1rem;
+    /* top-bottom left-right */
+    /* top right bottom left */
+    padding: 0 2rem;
+}
+
+ol {
+    list-style: lower-greek;
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+
+ul {
+    list-style: circle inside;
+}
+
+ul>li {
+    border: 1px solid #DDD;
+    background-color: #EEE;
+    padding: 5px 10px;
+
+}
+
+dl {
+    border-left: 7px red double;
+    padding: 1em;
+}
+
+dl>dt {
+    text-align: right;
+    color: darkred;
+    float: left;
+}
+
+dl>dd {
+    padding-left: 100px;
+    padding-bottom: 0.5em;
+    border-left: 120px;
+}
+
+dt::after {
+    content: ":";
+}
+
+#typography .first-paragraph {
+    /* posunutí prvního řádku */
+    text-indent: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+
+#typography>h2:first-child {
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color] */
+    text-shadow: 5px 5px 10px black;
+
+}
