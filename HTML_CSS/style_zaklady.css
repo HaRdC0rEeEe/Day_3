@@ -175,19 +175,24 @@ dt::after {
 
 }
 
-.reset>h1 {
+h1 {
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Caprasimo', cursive;
+}
+
+h3,
+.h1-p {
+    font-family: 'Martian Mono', monospace;
+
+}
+
+.reset>h1 {
+    text-align: center;
 }
 
 .reset>h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.reset>h3 {
-    font-family: 'Martian Mono', monospace;
-
-}
-
-.h1-p {
-    font-family: 'Martian Mono', monospace;
+    text-align: right;
 }
