@@ -140,3 +140,13 @@ dt::after {
     text-shadow: 5px 5px 10px black;
 
 }
+
+.zalomeni {
+    line-height: 1.7rem;
+    text-decoration: overline blue;
+
+}
+
+.zalomeni:hover {
+    text-decoration: underline;
+}

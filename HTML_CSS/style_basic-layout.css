@@ -39,18 +39,50 @@ select {
 
 }
 
-body {
-    height: 200%;
 
-}
 
 .outer-container {
     position: relative;
 }
 
 .absolute {
+    background-color: green;
+
     position: absolute;
     top: 0;
     left: 0;
-    background-color: green;
+
+}
+
+.fixed {
+    background-color: brown;
+
+    position: fixed;
+    top: 100px;
+
+}
+
+.relative {
+    background-color: goldenrod;
+
+    position: relative;
+    top: 0;
+    /* left: 150px; */
+
+
+
+}
+
+.sticky {
+    background-color: gold;
+
+    top: 300px;
+
+    margin-left: 100px;
+
+    position: sticky;
+}
+
+html {
+    height: 200%;
 }
