@@ -39,11 +39,18 @@ select {
 
 }
 
-html {
+body {
     height: 200%;
+
+}
+
+.outer-container {
+    position: relative;
 }
 
 .absolute {
     position: absolute;
+    top: 0;
+    left: 0;
     background-color: green;
 }
