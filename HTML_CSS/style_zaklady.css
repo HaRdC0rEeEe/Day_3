@@ -150,3 +150,44 @@ dt::after {
 .zalomeni:hover {
     text-decoration: underline;
 }
+
+.h1-p {
+    text-align: center;
+}
+
+.h2-p {
+    text-align: right;
+}
+
+.h3-p {
+    font-family: Consolas;
+    text-align: justify;
+}
+
+.reset h3 {
+    margin: 60px;
+}
+
+.h4-div {
+    /* text vertikálně */
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+}
+
+.reset>h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reset>h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reset>h3 {
+    font-family: 'Martian Mono', monospace;
+
+}
+
+.h1-p {
+    font-family: 'Martian Mono', monospace;
+}
